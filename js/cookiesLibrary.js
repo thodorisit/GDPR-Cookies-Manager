@@ -12,16 +12,18 @@ $.getJSON('js/settings.json', function(jsonData) {
     cgdpr +=                '<div id="gdpr-cookies-left-menu">';
     
     $.each(jsonData.categories[0], function(key,value) {
-        flagf++;
-        if (flagf == 1) {
-            cgdpr += '<div class="gdpr-cookies-left-menu-item gdpr-cookies-left-menu-item-selected '+key+'-left-menu" onClick="showRightBox(\''+key+'\')">';
-        } else {
-            cgdpr += '<div class="gdpr-cookies-left-menu-item '+key+'-left-menu" onClick="showRightBox(\''+key+'\')">';
-        }
-        if (value.icon !== null && value.icon !== "") {
-            cgdpr += '<i class="fa fa-'+value.icon+'" style="font-size:25px; margin-right:10px;"></i>';
-        }
-        cgdpr += value.title +'</div>';
+		if (jsonData.categories_state[key] == 1) {
+			flagf++;
+			if (flagf == 1) {
+				cgdpr += '<div class="gdpr-cookies-left-menu-item gdpr-cookies-left-menu-item-selected '+key+'-left-menu" onClick="showRightBox(\''+key+'\')">';
+			} else {
+				cgdpr += '<div class="gdpr-cookies-left-menu-item '+key+'-left-menu" onClick="showRightBox(\''+key+'\')">';
+			}
+			if (value.icon !== null && value.icon !== "") {
+				cgdpr += '<i class="fa fa-'+value.icon+'" style="font-size:25px; margin-right:10px;"></i>';
+			}
+			cgdpr += value.title +'</div>';
+		}
     });
    
     cgdpr +=                '</div>';
@@ -29,8 +31,8 @@ $.getJSON('js/settings.json', function(jsonData) {
     cgdpr +=        '</li>';
     
     $.each(jsonData.categories[0], function(key,value) {
-        flags++;
         if (jsonData.categories_state[key] == 1) {
+	        flags++;
             if(flags == 1) {
                 cgdpr +=        '<li class="'+key+'-right-box gdpr-cookies-right-box-selected">';
             } else {
