@@ -1,5 +1,7 @@
 # GDPR-Cookies-Manager
 
+Check out the teaser : https://thodorisit.github.io/GDPR-Cookies-Manager/
+
 Requirements and thoughts...
 
 	JQuery is requested.
