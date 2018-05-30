@@ -1,0 +1,316 @@
+{
+  "general" : {
+    "logo" : "img/consent.png",
+    "design" : {
+        "bottomButton" : {
+            "backgroundColor" : "",
+            "textColor" : ""
+        },
+        "bottomButtonHover" : {
+            "backgroundColor" : "",
+            "textColor" : ""
+        },
+        "leftMenu" : {
+            "backgroundColor" : "",
+            "textColor" : ""
+        },
+        "leftMenuSelected" : {
+            "backgroundColor" : "",
+            "textColor" : "",
+            "rightBorderColor" : ""
+        },
+        "closeButton" : {
+            "backgroundColor" : "",
+            "charColor" : ""
+        },
+        "closeButtonHover" : {
+            "backgroundColor" : "",
+            "charColor" : ""
+        },
+        "toggleButton" : {
+            "enabledColor" : ""
+        },
+        "links" : {
+            "color" : "#fa3e3e"
+        }
+        
+    },
+    "floatButton" : {
+        "show" : "1",
+        "text" : "Cookies Settings",
+        "backgroundColor" : "",
+        "textColor" : ""
+    },
+    "warningBox" : {
+        "style" : "bottom-left",
+        "settingsText" : "Cookies Settings",
+        "acceptText" : "Accept",
+        "text" : "We use cookies!",
+        "acceptBgColor" : "",
+        "acceptTextColor" : "",
+        "settingsBgColor" : "",
+        "settingsTextColor" : ""
+    },
+    "bottomButtons" : {
+        "enableAllCookies" : "Enable All Cookies",
+        "saveChanges" : "Save Changes"
+    }
+    
+  },
+  "categories": [{
+    
+    "privacyPreview" : {
+      "icon" : "",
+      "title" : "Privacy Preview",
+      "text" : "Welcome to a simple light-weight Cookies & Javascript manager. <br/><br/> GitHub: <a href=\"\">Project Link<\/a>.",
+      
+      "actions" : {
+        
+        "show_button" : "0",
+        "button" : {
+          "default_state" : "0",
+          "label" : "Button Label"
+        },
+        "scripts" : {
+          
+          "head" : [
+            
+          ],
+          "body" : [
+           
+          ],
+          "footer" : [
+            
+          ]
+          
+        }
+        
+      }
+      
+    }, 
+    
+    "necessaryCookies" : {
+      "icon" : "",
+      "title" : "Strictly Necessary Cookies",
+      "text" : "",
+      
+      "actions" : {
+        
+        "show_button" : "1",
+        "button" : {
+          "default_state" : "1",
+          "label" : "Activated switch by default"
+        },
+        "scripts" : {
+          
+          "head" : [
+           
+          ],
+          "body" : [
+           
+          ],
+          "footer" : [
+           
+          ]
+          
+        }
+        
+      }
+      
+    }, 
+    
+    "thirdPartyCookies" : {
+      "icon" : "",
+      "title" : "Third Party Cookies",
+      "text" : "",
+      
+      "actions" : {
+        
+        "show_button" : "1",
+        "button" : {
+          "default_state" : "0",
+          "label" : "Deactivated switch by default"
+        },
+        "scripts" : {
+          
+          "head" : [
+            
+          ],
+          "body" : [
+           
+          ],
+          "footer" : [
+            
+          ]
+          
+        }
+        
+      }
+      
+    }, 
+    
+    "additionalCookies" : {
+      "icon" : "",
+      "title" : "Additional Cookies",
+      "text" : "Hidden activated switch by default. All scripts will run after page load.",
+      
+      "actions" : {
+        
+        "show_button" : "0",
+        "button" : {
+          "default_state" : "1",
+          "label" : "Button Label"
+        },
+        "scripts" : {
+          
+          "head" : [
+            
+          ],
+          "body" : [
+            
+          ],
+          "footer" : [
+           
+          ]
+          
+        }
+        
+      }
+      
+    }, 
+    
+    "privacyPolicy" : {
+      "icon" : "",
+      "title" : "Privacy Policy",
+      "text" : "HTML support. <br/> P.S. Characters should be escaped. <table style=\"margin-top:20px; border: 1px solid #ddd;\"><tr style=\"border: 1px solid #ddd;\"><th style=\"border: 1px solid #ddd;\">Cookie Type</th><th style=\"border: 1px solid #ddd;\">Cookie Value</th></tr><tr style=\"border: 1px solid #ddd;\"><td style=\"border: 1px solid #ddd;\">Data</td><td style=\"border: 1px solid #ddd;\">Data</td></tr></table>",
+      
+      "actions" : {
+        
+        "show_button" : "0",
+        "button" : {
+          "default_state" : "0",
+          "label" : "Button Label"
+        },
+        "scripts" : {
+          
+          "head" : [
+            
+          ],
+          "body" : [
+           
+          ],
+          "footer" : [
+            
+          ]
+          
+        }
+        
+      }
+      
+    }, 
+    
+    "performanceCookies" : {
+      "icon" : "",
+      "title" : "Performance Cookies",
+      "text" : "It's empty cause..",
+      
+      "actions" : {
+        
+        "show_button" : "0",
+        "button" : {
+          "default_state" : "0",
+          "label" : "Button Label"
+        },
+        "scripts" : {
+          
+          "head" : [
+           
+          ],
+          "body" : [
+            
+          ],
+          "footer" : [
+            
+          ]
+          
+        }
+        
+      }
+      
+    }, 
+    
+    "functionalityCookies" : {
+      "icon" : "",
+      "title" : "Functionality Cookies",
+      "text" : "this project can do everything you need..",
+      
+      "actions" : {
+        
+        "show_button" : "0",
+        "button" : {
+          "default_state" : "0",
+          "label" : "Button Label"
+        },
+        "scripts" : {
+          
+          "head" : [
+            
+          ],
+          "body" : [
+            
+          ],
+          "footer" : [
+            
+          ]
+          
+        }
+        
+      }
+      
+    }, 
+    
+    "advertisingCookies" : {
+      "icon" : "",
+      "title" : "Advertising Cookies",
+      "text" : "so, don't waste time reading.. Start creating! <i style=\"font-size:30px; color:#fa3e3e;\" class=\"fa fa-smile-o\" aria-hidden=\"true\"></i>",
+      
+      "actions" : {
+        
+        "show_button" : "0",
+        "button" : {
+          "default_state" : "0",
+          "label" : "Button Label"
+        },
+        "scripts" : {
+          
+          "head" : [
+            
+          ],
+          "body" : [
+            
+          ],
+          "footer" : [
+                            
+          ]
+          
+        }
+        
+      }
+      
+    }
+    
+  }],
+      
+  "categories_state" : {
+        "privacyPreview"        : "1",
+        "necessaryCookies"      : "1",
+        "thirdPartyCookies"     : "1",
+        "additionalCookies"     : "1",
+        "privacyPolicy"         : "1",
+        "performanceCookies"    : "1",
+        "functionalityCookies"  : "1",
+        "advertisingCookies"    : "1"
+  },
+  
+  "exp": "90"
+}
