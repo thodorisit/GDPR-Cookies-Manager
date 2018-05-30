@@ -62,7 +62,7 @@
     "privacyPreview" : {
       "icon" : "",
       "title" : "Privacy Preview",
-      "text" : "Welcome to a simple light-weight Cookies & Javascript manager. <br/><br/> GitHub: <a target="_blank" href=\"https://github.com/thodorisit/GDPR-Cookies-Manager\">Project Link<\/a>.",
+      "text" : "Welcome to a simple light-weight Cookies & Javascript manager. <br/><br/> GitHub: <a target=\"_blank\" href=\"https://github.com/thodorisit/GDPR-Cookies-Manager\">Project Link<\/a>.",
       
       "actions" : {
         
